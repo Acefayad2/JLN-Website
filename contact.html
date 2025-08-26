@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact Us - JLN Construction | Get in Touch for Your Project</title>
+  <meta name="description" content="Contact JLN Construction for your construction, engineering, and environmental services needs. Get in touch with our team in Liberia and USA.">
+  <link rel="stylesheet" href="assets/styles.css" />
+  <link rel="stylesheet" href="assets/brand.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a href="index.html" class="brand">
+        <div class="brand-badge">JLN</div>
+        <div>
+          <div class="brand-name">JLN Construction</div>
+          <div class="brand-subtitle">USA • Liberia</div>
+        </div>
+      </a>
+      <nav class="main-nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="projects.html">Projects</a>
+        <a href="team.html">Team</a>
+        <a href="equipment.html">Equipment</a>
+        <a href="contact.html" class="active">Contact</a>
+      </nav>
+      <button class="mobile-menu-toggle" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <div class="page-hero-content">
+          <h1 class="page-hero-title">Contact Us</h1>
+          <p class="page-hero-description">
+            Ready to start your project? Get in touch with JLN Construction today.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-main">
+      <div class="container">
+        <div class="contact-grid">
+          <div class="contact-form-section">
+            <h2 class="section-title">Send Us a Message</h2>
+            <p class="section-description">
+              Fill out the form below and we'll get back to you within 24 hours to discuss your project requirements.
+            </p>
+            
+            <form id="contact-form" class="contact-form">
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="first-name">First Name *</label>
+                  <input type="text" id="first-name" name="first-name" required>
+                </div>
+                <div class="form-group">
+                  <label for="last-name">Last Name *</label>
+                  <input type="text" id="last-name" name="last-name" required>
+                </div>
+              </div>
+              
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="email">Email Address *</label>
+                  <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                  <label for="phone">Phone Number</label>
+                  <input type="tel" id="phone" name="phone">
+                </div>
+              </div>
+              
+              <div class="form-group">
+                <label for="company">Company/Organization</label>
+                <input type="text" id="company" name="company">
+              </div>
+              
+              <div class="form-group">
+                <label for="service-type">Service Type *</label>
+                <select id="service-type" name="service-type" required>
+                  <option value="">Select a service</option>
+                  <option value="vertical-construction">Vertical Construction</option>
+                  <option value="horizontal-construction">Horizontal Construction</option>
+                  <option value="engineering">Engineering Services</option>
+                  <option value="environmental">Environmental Services</option>
+                  <option value="project-management">Project Management</option>
+                  <option value="other">Other</option>
+                </select>
+              </div>
+              
+              <div class="form-group">
+                <label for="project-description">Project Description *</label>
+                <textarea id="project-description" name="project-description" rows="5" required placeholder="Please describe your project requirements, timeline, and any specific needs..."></textarea>
+              </div>
+              
+              <div class="form-group">
+                <label for="budget-range">Budget Range</label>
+                <select id="budget-range" name="budget-range">
+                  <option value="">Select budget range</option>
+                  <option value="under-100k">Under $100,000</option>
+                  <option value="100k-500k">$100,000 - $500,000</option>
+                  <option value="500k-1m">$500,000 - $1,000,000</option>
+                  <option value="1m-5m">$1,000,000 - $5,000,000</option>
+                  <option value="5m-10m">$5,000,000 - $10,000,000</option>
+                  <option value="over-10m">Over $10,000,000</option>
+                  <option value="to-be-determined">To be determined</option>
+                </select>
+              </div>
+              
+              <div class="form-group">
+                <label for="timeline">Project Timeline</label>
+                <select id="timeline" name="timeline">
+                  <option value="">Select timeline</option>
+                  <option value="immediate">Immediate start</option>
+                  <option value="1-3-months">1-3 months</option>
+                  <option value="3-6-months">3-6 months</option>
+                  <option value="6-12-months">6-12 months</option>
+                  <option value="over-12-months">Over 12 months</option>
+                  <option value="flexible">Flexible</option>
+                </select>
+              </div>
+              
+              <div class="form-group">
+                <label for="location">Project Location</label>
+                <input type="text" id="location" name="location" placeholder="City, Country">
+              </div>
+              
+              <div class="form-group">
+                <label for="additional-info">Additional Information</label>
+                <textarea id="additional-info" name="additional-info" rows="3" placeholder="Any other details about your project or requirements..."></textarea>
+              </div>
+              
+              <div class="form-group">
+                <label class="checkbox-label">
+                  <input type="checkbox" name="newsletter" value="yes">
+                  <span class="checkmark"></span>
+                  Subscribe to our newsletter for industry insights and company updates
+                </label>
+              </div>
+              
+              <button type="submit" class="btn btn-primary btn-large">Send Message</button>
+            </form>
+          </div>
+          
+          <div class="contact-info-section">
+            <h2 class="section-title">Get in Touch</h2>
+            <p class="section-description">
+              We're here to help bring your vision to life. Reach out to us through any of the channels below.
+            </p>
+            
+            <div class="contact-methods">
+              <div class="contact-method">
+                <div class="contact-icon">📧</div>
+                <div>
+                  <h4>Email Us</h4>
+                  <a href="mailto:info@jlnconstruction.com">info@jlnconstruction.com</a>
+                  <p>We typically respond within 24 hours</p>
+                </div>
+              </div>
+              
+              <div class="contact-method">
+                <div class="contact-icon">📱</div>
+                <div>
+                  <h4>Call Us</h4>
+                  <p><strong>Liberia:</strong> +231 XXX XXX XXX</p>
+                  <p><strong>USA:</strong> +1 XXX XXX XXXX</p>
+                  <p>Monday - Friday, 8:00 AM - 6:00 PM</p>
+                </div>
+              </div>
+              
+              <div class="contact-method">
+                <div class="contact-icon">📍</div>
+                <div>
+                  <h4>Visit Us</h4>
+                  <div class="office-location">
+                    <h5>Monrovia Office</h5>
+                    <p>Central Monrovia<br>Liberia</p>
+                  </div>
+                  <div class="office-location">
+                    <h5>Baltimore Office</h5>
+                    <p>Baltimore, Maryland<br>United States</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <div class="emergency-contact">
+              <h4>Emergency Contact</h4>
+              <p>For urgent matters outside business hours, please call our emergency line:</p>
+              <p class="emergency-number">+231 XXX XXX XXX</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="faq-section">
+      <div class="container">
+        <h2 class="section-title">Frequently Asked Questions</h2>
+        <div class="faq-grid">
+          <div class="faq-item">
+            <h4>What types of projects does JLN Construction handle?</h4>
+            <p>We handle a wide range of projects including healthcare facilities, educational institutions, commercial buildings, roads, bridges, drainage systems, and environmental management projects.</p>
+          </div>
+          
+          <div class="faq-item">
+            <h4>Do you work internationally?</h4>
+            <p>Yes, we operate in both Liberia and the United States, serving clients across West Africa and beyond.</p>
+          </div>
+          
+          <div class="faq-item">
+            <h4>What is your typical project timeline?</h4>
+            <p>Project timelines vary based on scope and complexity. We work closely with clients to establish realistic schedules and ensure on-time delivery.</p>
+          </div>
+          
+          <div class="faq-item">
+            <h4>Do you provide post-construction support?</h4>
+            <p>Absolutely. We offer comprehensive post-construction support including follow-ups, modifications, maintenance guidance, and ongoing communication.</p>
+          </div>
+          
+          <div class="faq-item">
+            <h4>What safety standards do you follow?</h4>
+            <p>We adhere to international safety standards and implement comprehensive EHS protocols to protect workers, communities, and the environment.</p>
+          </div>
+          
+          <div class="faq-item">
+            <h4>How do you ensure quality control?</h4>
+            <p>We implement rigorous QA/QC processes throughout all project phases, including regular inspections, testing, and continuous monitoring.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta-section">
+      <div class="container">
+        <div class="cta-content">
+          <h2 class="cta-title">Ready to Start Your Project?</h2>
+          <p class="cta-description">Let's discuss how JLN Construction can bring your vision to life with our comprehensive services and 27+ years of experience.</p>
+          <div class="cta-buttons">
+            <a class="btn btn-primary btn-large" href="#contact-form">Get Started Today</a>
+            <a class="btn btn-secondary btn-large" href="projects.html">View Our Work</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-brand">
+          <div class="brand-badge">JLN</div>
+          <div class="footer-brand-text">
+            <div class="brand-name">JLN Construction</div>
+            <div class="brand-subtitle">Building Excellence Since 1997</div>
+          </div>
+        </div>
+        <div class="footer-links">
+          <div class="footer-section">
+            <h4>Services</h4>
+            <a href="services.html">Construction</a>
+            <a href="services.html">Engineering</a>
+            <a href="services.html">Environmental</a>
+            <a href="services.html">Project Management</a>
+          </div>
+          <div class="footer-section">
+            <h4>Company</h4>
+            <a href="about.html">About Us</a>
+            <a href="team.html">Our Team</a>
+            <a href="projects.html">Projects</a>
+            <a href="contact.html">Contact</a>
+          </div>
+          <div class="footer-section">
+            <h4>Contact</h4>
+            <div class="contact-info">
+              <div>Monrovia, Liberia</div>
+              <div>Baltimore, USA</div>
+              <a href="mailto:info@jlnconstruction.com">info@jlnconstruction.com</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="copyright">© 2025 JLN Construction. All rights reserved.</div>
+        <div class="footer-actions">
+          <a href="assets/JLN-Company-Profile.pdf" target="_blank" class="btn btn-small">Download Company Profile</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/script.js"></script>
+</body>
+</html>
