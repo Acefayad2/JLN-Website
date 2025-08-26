@@ -98,26 +98,26 @@ p {
 }
 
 .btn-primary {
-  background-color: var(--accent-primary);
+  background-color: var(--accent-secondary);
   color: white;
-  border-color: var(--accent-primary);
+  border-color: var(--accent-secondary);
 }
 
 .btn-primary:hover {
-  background-color: #b8943f;
-  border-color: #b8943f;
+  background-color: #15803d;
+  border-color: #15803d;
   transform: translateY(-1px);
   box-shadow: var(--shadow-md);
 }
 
 .btn-secondary {
   background-color: transparent;
-  color: var(--accent-primary);
-  border-color: var(--accent-primary);
+  color: var(--accent-secondary);
+  border-color: var(--accent-secondary);
 }
 
 .btn-secondary:hover {
-  background-color: var(--accent-primary);
+  background-color: var(--accent-secondary);
   color: white;
   transform: translateY(-1px);
 }
@@ -226,7 +226,7 @@ p {
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 1px;
-  color: var(--accent-primary);
+  color: #00cc6a;
   margin-top: -5px;
   text-align: center;
 }
@@ -253,7 +253,7 @@ p {
 
 .main-nav a:hover,
 .main-nav a.active {
-  color: var(--accent-primary);
+  color: var(--accent-secondary);
 }
 
 .main-nav a::after {
@@ -263,7 +263,7 @@ p {
   left: 0;
   width: 0;
   height: 2px;
-  background-color: var(--accent-primary);
+  background-color: var(--accent-secondary);
   transition: width 0.2s ease;
 }
 
